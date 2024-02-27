@@ -3,7 +3,7 @@ from datetime import datetime
 import json
 
 url = "https://cyder-dev.nws.oregonstate.edu/api/v1/dns/cname/?i:ctnr=247"
-MY_TOKEN = "5732b73e7f3c8cd24fd22dfe472e28abeb46759a"
+MY_TOKEN = "your token here"
 headers = {'Authorization': f'Token {MY_TOKEN}'}
 
 # Grabbign current  date 
